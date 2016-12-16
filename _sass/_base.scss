@@ -61,6 +61,21 @@ section {
     padding:  0 0 50px 0;
 }
 
+section.big-padding {
+    padding-top: 70px;
+    }
+@media (min-width: 768px) {
+
+    section {
+        padding:  0 0 40px 0;
+        }
+    section.big-padding {
+        padding-top: 40px;
+        }
+
+    }
+
+
 aside {
     padding: 50px 0;
 }
@@ -337,6 +352,8 @@ header {
     background: $theme-dark;
 }
 
+
+
 img::selection {
     color: white;
     background: transparent;
@@ -351,7 +368,7 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
-header.main {
+#entry.entry-header {
     padding:    120px 0 !important;
     margin-bottom: 70px !important;
     width: 100%;
@@ -361,5 +378,6 @@ header.main {
     background-position: center center;
     background-size: cover;
     background-color: #efefef;
+    color: #ffffff;
     }
 
