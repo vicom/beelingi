@@ -62,15 +62,15 @@ section {
 }
 
 section.big-padding {
-    padding-top: 70px;
+    padding-top: 50px;
     }
 @media (min-width: 768px) {
 
     section {
-        padding:  0 0 40px 0;
+        padding:  0 0 30px 0;
         }
     section.big-padding {
-        padding-top: 40px;
+        padding-top: 30px;
         }
 
     }
