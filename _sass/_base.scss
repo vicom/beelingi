@@ -381,7 +381,7 @@ body {
     color: #ffffff;
     }
 
-#unterricht, #warum {
+#unterricht, {
 
     @media (max-width: 768px) {
 
@@ -391,4 +391,13 @@ body {
         }
     }
 
+#warum {
+
+    @media (max-width: 768px) {
+
+        .entry-header {
+            background-position: center left;
+            }
+        }
+    }
 
