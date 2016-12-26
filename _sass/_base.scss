@@ -381,3 +381,13 @@ body {
     color: #ffffff;
     }
 
+#unterricht {
+
+    @media (min-width: 768px){
+
+        .entry-header {
+            background-position: left;
+
+        }
+
+    }
